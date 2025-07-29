@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class ="container">
+        <div class="header">
+            <h1>Tic-Tac-Toe</h1>
+            <!--Free SVG used online (Author: Sinkandika, From: Simple Game Interface Icons)-->
+            <svg id="logo-img" width="800px" height="800px" viewBox="0 0 512 512" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke:#f8c023;stroke-linecap:round;stroke-linejoin:round;stroke-width:20px;}</style></defs><title/><circle class="cls-1" cx="202.48" cy="199.55" r="42.48"/><circle class="cls-1" cx="309.52" cy="312.45" r="42.48"/><line class="cls-1" x1="350.19" x2="268.85" y1="158.88" y2="240.22"/><line class="cls-1" x1="350.19" x2="268.85" y1="240.22" y2="158.88"/><line class="cls-1" x1="244.96" x2="163.62" y1="271.78" y2="353.12"/><line class="cls-1" x1="244.96" x2="163.62" y1="353.12" y2="271.78"/></svg>
+        </div>
+        <div class="content">
+            <div class="screen">
+                <div class="start-inputs">
+                    <label>Player 1: <input autofocus type="text" name="player1" id="player1"></label>
+                    <label>Player 2: <input  type="text" name="player2" id="player2"></label>
+                    <div class="start">
+                        <button>Start</button>
+                    </div>
+                </div>
+                <div class="game hidden">
+                    <div class="message"></div>
+                    <div class="board"></div>  
+                    <div class="restart hidden">
+                        <button>Restart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
